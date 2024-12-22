@@ -105,6 +105,6 @@ deploy:
   - type: git
     repository: git@github.com:Ruomio/ruomio.github.io.git
     branch: main
-  - type: git
-    repository: git@8.146.199.13:/home/git/blog.git
-    branch: main
+    # - type: git
+    #   repository: git@8.146.199.13:/home/git/blog.git
+    #   branch: main

@@ -82,7 +82,8 @@ lspci -k | grep -A 2 -E "(VGA|3D)"
 > xrandr --setprovideroutputsource modesetting NVIDIA-0
 > xrandr --auto
 > 
-> 
+>
+> ```
 
 ## 切换回intel
 
@@ -121,7 +122,7 @@ lspci -k | grep -A 2 -E "(VGA|3D)"
 >
 > $ nmcli device con {网卡名}
 >
->  	4.查看已有连接
+> 4. 查看已有连接
 >
 > $ nmcli con
 
